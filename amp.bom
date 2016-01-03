@@ -2,7 +2,7 @@ Bill Of Materials
 =================
 
 Source file: amp.xml
-Date: 2016-01-02T03:14:11.168096
+Date: 2016-01-03T04:50:20.967611
 
 Parts Missing Footprints
 ------------------------
@@ -11,7 +11,7 @@ Parts Missing Footprints
 Parts Missing Order Codes
 -------------------------
 P1     SWD_TC          agg:TC2030-NL
-J1     SERIAL          agg:S04B-PASK-2
+J1     SERIAL          agg:SM04B-PASS
 R4     22              agg:0402
 R5     22              agg:0402
 R3     1k5             agg:0402
@@ -39,24 +39,24 @@ Vendor Specific BOMs
 --------------------
   Toby
   ~~~~
-FTSH-105-01-F-D-K,1,1x P2 FTSH-105-01-F-D-K
+agg:FTSH-105-01-L-DV-K,1,1x P2 FTSH-105-01-L-DV-K
 
 
   Farnell
   ~~~~~~~
-1568023,1,1x MICROUSB MICROUSB_MOLEX_475
-9846123,1,1x FDV304P SOT-23
-2101329,1,1x 8MHz XTAL-50x32
 2060891,1,1x STM32F103CBU6 QFN-48-EP-ST
 1296592,1,1x MCP1700 SOT-23
+2101329,1,1x 8MHz XTAL-50x32
+9846123,1,1x FDV304P SOT-23
+1568023,1,1x MICROUSB MICROUSB_MOLEX_475
 
 
 Assembly BOM
 ------------
-FTSH-105-01-F-D-K    1   SWD             FTSH-105-01-F-D-K P2
-1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J2
-9846123              1   FDV304P         SOT-23          Q1
-2101329              1   8MHz            XTAL-50x32      Y1
+agg:FTSH-105-01-L-DV-K 1   SWD             FTSH-105-01-L-DV-K P2
 2060891              1   STM32F103CBU6   QFN-48-EP-ST    IC1
 1296592              1   MCP1700         SOT-23          IC2
+2101329              1   8MHz            XTAL-50x32      Y1
+9846123              1   FDV304P         SOT-23          Q1
+1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J2
 
