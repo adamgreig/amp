@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/adam/Projects/amp/amp.sch)
-    (date "Sat 02 Jan 2016 07:31:03 GMT")
+    (date "Sun 03 Jan 2016 03:54:54 GMT")
     (tool "Eeschema 0.201512311516+6410~40~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -32,9 +32,9 @@
       (tstamp 568641FB))
     (comp (ref P2)
       (value SWD)
-      (footprint agg:FTSH-105-01-F-D-K)
+      (footprint agg:FTSH-105-01-L-DV-K)
       (fields
-        (field (name Toby) FTSH-105-01-F-D-K))
+        (field (name Toby) agg:FTSH-105-01-L-DV-K))
       (libsource (lib agg-kicad) (part SWD))
       (sheetpath (names /) (tstamps /))
       (tstamp 5686427C))
