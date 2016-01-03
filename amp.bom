@@ -2,7 +2,7 @@ Bill Of Materials
 =================
 
 Source file: amp.xml
-Date: 2016-01-03T04:50:20.967611
+Date: 2016-01-03T17:24:53.403038
 
 Parts Missing Footprints
 ------------------------
@@ -11,25 +11,6 @@ Parts Missing Footprints
 Parts Missing Order Codes
 -------------------------
 P1     SWD_TC          agg:TC2030-NL
-J1     SERIAL          agg:SM04B-PASS
-R4     22              agg:0402
-R5     22              agg:0402
-R3     1k5             agg:0402
-R1     4k7             agg:0402
-R2     10k             agg:0402
-C7     15p             agg:0402
-C9     15p             agg:0402
-C5     100n            agg:0402
-C4     100n            agg:0402
-C3     100n            agg:0402
-C6     10n             agg:0402
-C2     1µ              agg:0603
-C1     4µ7             agg:0603
-R6     4k7             agg:0402
-R7     10k             agg:0402
-C8     100n            agg:0402
-C11    1µ              agg:0603
-C10    1µ              agg:0603
 
 Inconsistent Order Codes
 ------------------------
@@ -37,26 +18,46 @@ Inconsistent Order Codes
 
 Vendor Specific BOMs
 --------------------
-  Toby
-  ~~~~
-agg:FTSH-105-01-L-DV-K,1,1x P2 FTSH-105-01-L-DV-K
-
-
   Farnell
   ~~~~~~~
-2060891,1,1x STM32F103CBU6 QFN-48-EP-ST
-1296592,1,1x MCP1700 SOT-23
+2399347,1,1x SERIAL SM04B-PASS
+1759380,4,4x 100n 0402
 2101329,1,1x 8MHz XTAL-50x32
-9846123,1,1x FDV304P SOT-23
+2496930,1,1x 4µ7 0603
+1758955,2,2x 33p 0402
+2447138,2,2x 22 0402
+2060891,1,1x STM32F103CBU6 QFN-48-EP-ST
+2447096,2,2x 10k 0402
+2447125,1,1x 1k5 0402
+2447187,2,2x 4k7 0402
 1568023,1,1x MICROUSB MICROUSB_MOLEX_475
+2496916,3,3x 1µ 0603
+1758924,1,1x 10n 0402
+1296592,1,1x MCP1700 SOT-23
+9846123,1,1x FDV304P SOT-23
+
+
+  Toby
+  ~~~~
+FTSH-105-01-L-DV-K,1,1x P2 FTSH-105-01-L-DV-K
 
 
 Assembly BOM
 ------------
-agg:FTSH-105-01-L-DV-K 1   SWD             FTSH-105-01-L-DV-K P2
-2060891              1   STM32F103CBU6   QFN-48-EP-ST    IC1
-1296592              1   MCP1700         SOT-23          IC2
+2399347              1   SERIAL          SM04B-PASS      J1
+1759380              4   100n            0402            C3 C4 C5 C8
 2101329              1   8MHz            XTAL-50x32      Y1
-9846123              1   FDV304P         SOT-23          Q1
+2496930              1   4µ7             0603            C1
+1758955              2   33p             0402            C7 C9
+2447138              2   22              0402            R4 R5
+2060891              1   STM32F103CBU6   QFN-48-EP-ST    IC1
+2447096              2   10k             0402            R2 R7
+2447125              1   1k5             0402            R3
+2447187              2   4k7             0402            R1 R6
 1568023              1   MICROUSB        MICROUSB_MOLEX_47589-0001 J2
+2496916              3   1µ              0603            C10 C11 C2
+1758924              1   10n             0402            C6
+1296592              1   MCP1700         SOT-23          IC2
+9846123              1   FDV304P         SOT-23          Q1
+FTSH-105-01-L-DV-K   1   SWD             FTSH-105-01-L-DV-K P2
 
